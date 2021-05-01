@@ -1,0 +1,239 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: url(../img/bannerbg.jpg) center center no-repeat;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  background-color: #4f4b4b;
+  color: white;
+  position: relative;
+  height: 100vh;
+}
+
+header .full-nav {
+  background-color: #343a4054;
+  position: relative;
+  z-index: 1;
+}
+
+header .navbar-brand h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+header .navbar-brand span {
+  display: block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+header .nav-item {
+  text-align: center;
+}
+
+header .navbar .nav-item:hover .nav-link {
+  box-shadow: 0px 2px 0px 0px white;
+  transition: 0.3s ease;
+}
+
+header .nav-item {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+
+header .navbar-nav .btn {
+  /* color: #fb2056;
+  background: white;
+  padding: 5px 10px;
+  font-size: 14px; */
+  color: white;
+  box-shadow: 0px 0px 5px -1px white;
+}
+
+header .navbar-nav .btn:hover {
+  color: white;
+  background-color: #fb2056;
+}
+
+header .navbar-toggler {
+  background-color: white;
+  border-radius: 2px;
+  border: 0px;
+}
+
+/* banner section starts here */
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.banner {
+  padding: 260px 0 200px;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+}
+
+.banner h4 {
+  font-family: "Playfair Display", serif;
+}
+
+.hr {
+  width: 10%;
+  height: 3px;
+  background-color: #fb2056;
+  display: block;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.learn-more {
+  color: #fff;
+  background: #fb2056;
+  padding: 10px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px auto 30px;
+  border-radius: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: 0.6s ease;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  color: #fb2056;
+  background: #fff;
+  text-decoration: none;
+}
+
+/* quote section css starts here */
+
+.quote-section {
+  background-color: #f4f5f9;
+  padding: 50px 0;
+  color: #4f4b4b;
+}
+
+.quote-section h5 {
+  font-family: "Playfair Display", serif;
+}
+
+/* events section css starts here */
+
+.events-section {
+  padding: 100px 0;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link {
+  color: #fb2056;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 0;
+}
+
+.events-section img {
+  box-shadow: 5px 5px 4px 1px #41404038;
+}
+
+.events-section .hr {
+  margin: auto;
+}
+
+/* explore section css starts here */
+
+.explore-section {
+  background: url(../img/3.jpg) left bottom no-repeat;
+  padding: 100px 0px 300px;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 769px) {
+  .explore-section {
+    padding: 200px 0px;
+  }
+}
+
+.explore-section .link {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 0;
+}
+
+.explore-section .link:hover {
+  color: #fb2056 !important;
+  background: #fff;
+  transition: 0.5s ease;
+  border-radius: 0;
+}
+
+/* upcoming section css starts here */
+
+.upcoming-section {
+  padding: 100px 0px;
+}
+
+.he {
+  height: 550px;
+}
+
+.border {
+  border: 1px solid #fb2056 !important;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.card1 {
+  background: url(../img/6.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.card2 {
+  background: url(../img/5.jpg) center center no-repeat;
+  background-size: cover;
+  zoom: -100px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.card3 {
+  background: url(../img/9.jpg) center top no-repeat;
+  background-size: cover;
+}
+.card4 {
+  background: url(../img/4.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #191919;
+  color: white;
+  padding: 20px 0px;
+  justify-content: center;
+  font-size: 12px;
+}
